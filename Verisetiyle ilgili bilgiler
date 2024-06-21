@@ -1,0 +1,45 @@
+**İstanbul Deprem Analizi: Doğalgaz Boru Hasarı Tahmini**
+
+
+Bu proje, olası bir İstanbul depreminde hasar görebilecek doğalgaz boru hatlarının tahmini amacıyla geliştirilmiştir. İstanbul deprem analizi veri setini kullanarak, doğalgaz boru hasarını tahmin etmek için bir sınıflandırma modeli oluşturulmuştur. Bu projenin amacı, gelecekteki depremlerde meydana gelebilecek hasarı en aza indirmek ve gerekli önlemleri almak için bir öngörü sistemi geliştirmektir.
+
+**Veri Seti**
+
+Kullanılan veri seti, aşağıdaki değişkenleri içermektedir:
+
+cok_agir_hasarli_bina_sayisi: Çok ağır hasarlı bina sayısı
+
+agir_hasarli_bina_sayisi: Ağır hasarlı bina sayısı
+
+orta_hasarli_bina_sayisi: Orta hasarlı bina sayısı
+
+hafif_hasarli_bina_sayisi: Hafif hasarlı bina sayısı
+
+can_kaybi_sayisi: Can kaybı sayısı
+
+agir_yarali_sayisi: Ağır yaralı sayısı
+
+hastanede_tedavi_sayisi: Hastanede tedavi gören yaralı sayısı
+
+hafif_yarali_sayisi: Hafif yaralı sayısı
+
+dogalgaz_boru_hasari: Doğalgaz boru hasarı
+
+icme_suyu_boru_hasari: İçme suyu boru hasarı
+
+atik_su_boru_hasari: Atık su boru hasarı
+
+gecici_barinma: Geçici barınma ihtiyacı
+
+Proje Amacı
+Bu projede, doğalgaz boru hatlarının olası bir İstanbul depreminde hasar görebileceği yerleri tahmin etmek hedeflenmiştir. Bu tahminler, ilgili kurumlar ve karar vericiler tarafından alınacak önlemleri belirlemek ve acil durum planlarını geliştirmek için kullanılabilir.
+
+**Kullanılan Yöntemler**
+
+Veri Ön İşleme: Veri setinde eksik veri olmadığı için bu adım atlanmıştır.
+Özellik Seçimi: Önemli özelliklerin belirlenmesi ve modele dahil edilmesi.
+Model Eğitimi ve Değerlendirme: Random Forest algoritması kullanılarak doğalgaz boru hasarının tahmin edilmesi ve modelin performansının değerlendirilmesi.
+
+**Sonuçlar**
+
+Modelimizin sonuçları, belirli bölgelerde doğalgaz boru hasar riskinin yüksek olduğunu göstermektedir. Bu sonuçlar, ilgili kurumlar tarafından değerlendirilip gerekli önlemler alınabilir.
